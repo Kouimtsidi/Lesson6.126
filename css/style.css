@@ -1,0 +1,31 @@
+.chess{
+	   width: 1080px;
+	   margin: 0 auto;
+       position: relative;}
+.image{
+	width: 1200px;
+}
+.figure1{ 
+	     position: absolute;
+         top: 55px;
+         left: 250px;
+         animation: box-animation 5s 1;}
+.figure{
+	    width: 55px;
+        height: 60px;
+       }
+.figure2{ 
+	    position: absolute;
+         top: 230px;
+         left: 250px;
+        animation: box-animation2 6s 1;}
+@keyframes box-animation{from {top: 55px;}
+                     to {top: 230px};}
+@keyframes box-animation2{from{top: 230px;}
+	                  to {left: 50px};}
+
+
+                      /*ამ ლექციის ყურებისას ცოტა დიდი ხანი ვერკვეოდი და პრაქტიკისთვის ეს ავაწყვე მოგვიანებით რამე უფრო საინტერესოს დავწერ...
+                      უბრალოდ ელემენტები რომ არ ბრუნდებოდეს თავის ადგილას ან ქრებოდეს რაღაცების ცოდნა დამაკლდა*/
+
+
