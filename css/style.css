@@ -18,14 +18,17 @@
 	    position: absolute;
          top: 230px;
          left: 250px;
-        animation: box-animation2 6s 1;}
+        animation: box-animation2 6s forwards;}
 @keyframes box-animation{from {top: 55px;}
                      to {top: 230px};}
-@keyframes box-animation2{from{top: 230px;}
-	                  to {left: 50px};}
+@keyframes box-animation2{0%{opacity: 1;}
+	                      20%{opacity: 1;}
+                          50%{opacity: 1;}
+                          80%{opacity: 0;}
+                          100%{opacity: 0;}}
 
 
                       /*ამ ლექციის ყურებისას ცოტა დიდი ხანი ვერკვეოდი და პრაქტიკისთვის ეს ავაწყვე მოგვიანებით რამე უფრო საინტერესოს დავწერ...
-                      უბრალოდ ელემენტები რომ არ ბრუნდებოდეს თავის ადგილას ან ქრებოდეს რაღაცების ცოდნა დამაკლდა*/
+                      უბრალოდ ელემენტები რომ არ ბრუნდებოდეს თავის ადგილას და რაღაცების ცოდნა დამაკლდა*/
 
 
